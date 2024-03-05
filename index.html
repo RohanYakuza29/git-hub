@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- accio-job -->
+</head>
+<body>
+    <header>
+
+    <nav>
+    <a id="active" href="Library System">Library System</a>
+    <a  id="a1" href="#BOOK">Books</a>
+    <a id="a1" href="#Register">Register</a>
+    <a id="a1" href="Contact Us">Contact Us</a>
+    <a id="a1" href="Logout">Logout</a>
+    
+    </nav>
+    </header>
+
+    <h1 id="BOOK">Book</h1>
+    <table class="center">
+        <div>
+        
+        
+            
+                <Tr>
+                    <td>Book ID</td>
+                    <td>Title</td>
+                    <td>Author</td>
+                    <td>Genre</td>
+                    <td>Avaibilty</td>
+                </Tr>
+            
+            
+        
+        
+            
+            
+                
+                
+                    <tr>
+                        <td>1</td>
+                       <td> <table id="s1">
+                        
+                    <tr><a href="BookTitle1">BookTitle1</a></tr>
+                    <tr><td>Publication Date:2000</td></tr>
+                    <tr> <td>Page Count:250</td></tr>
+                    <td>ISBN:123-4567890123
+                    </table></td>
+                    <td>Author Name 1</td>
+                    <td>Genre</td>
+                    <td>Available</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                       <td id="s2"> <table id="s1">
+                    <tr><a href="BookTitle2">BookTitle2</a></tr>
+                    <tr><td>Publication Date:2005</td></tr>
+                    <tr> <td>Page Count:300</td></tr>
+                    <td>ISBN:123-4567890456
+                    </table></td>
+                    <td>Author Name 2</td>
+                    <td>Genre 2</td>
+                    <td>Not Available</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                       <td> <table id="s1">
+                    <tr><a href="BookTitle3">BookTitle3</a></tr>
+                    <tr><td>Publication Date:2010</td></tr>
+                    <tr> <td>Page Count:350</td></tr>
+                    <td>ISBN:123-4567890789
+                    </table></td>
+                    <td>Author Name 3</td>
+                    <td>Genre 3</td>
+                    <td>Available</td>
+                </tr>
+        </table> 
+        
+    </table>
+    <form>
+        <h1 id="Register">Register</h1>
+        <div id="form1">
+            <form>
+                <label for="Name">First Name</label>
+            
+               
+                <input type="text" name="name" id="name",required>
+            
+               <label for="Name">Last Name</label>
+            
+                
+                <input type="text" name="Last Name" id="Last Name",required>
+            
+                 <label for="Date">Date of Birth:</label>
+            
+                
+                <input type="Date" name="Date" id="Date",required>
+            
+                  <label for="Age">Age:</label>
+            
+                
+                <input type="password" name="age" id="Age",required>
+
+            
+                 <label for="Password">Password</label>
+            
+                
+                 <input type="password" name="Password" id="Password",required>
+            
+            <label for="confirmpasword">confirm Pasword</label>
+            
+                
+                <input type="submit" name="name" id="name">
+            
+                 <label for="button"></label>
+            
+               
+                <input type="submit" name="submit" id="Submit">
+            
+              </form>
+
+        
+        
+</div>
+<script>
+
+function pageScroll() {
+        window.scrollBy(0,50); // horizontal and vertical scroll increments
+        scrolldelay = setTimeout('pageScroll()',100); // scrolls every 100 milliseconds
+}
+</script>
+
+</body>
+</html>

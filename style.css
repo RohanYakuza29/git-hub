@@ -1,0 +1,146 @@
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+    
+   
+  }
+ #s1{
+    height:100% ;
+    width:100%;
+    cellspacing: 10px;
+    cellpadding:10px;
+    
+ }
+body{
+   margin:0;
+   font-size:28px;
+   font-family:Arial, Helvetica, sans-serif;
+   
+} 
+header{
+   background-color: #f1f1f1;
+   padding: 30px;
+   
+}
+nav{
+   overflow: hidden;
+   background-color: #333;
+
+}
+nav a{
+   
+   display:block;
+   color:#f2f2f2;
+   padding:14px 16px;
+   font-size:17px;
+   text-decoration:none;
+}
+#a1{
+   float:right;
+   
+
+
+}
+#active{
+   float:left;
+   display:block;
+   color:#f5f6f5;
+   background-color: #04AA6D;
+}
+table.center {
+   width:50%;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 25%;
+   margin-right: 25%;
+ }
+ #heading{
+margin-top: auto;
+
+ }
+
+h1{
+   margin: 333px; 
+   margin-bottom: 0px;
+   margin-top: 10px;
+}
+nav a.active{
+   background-color: #04AA6D;
+   color:white;
+
+}
+.content{
+   padding:16px;
+}
+.sticky{
+   position: fixed;
+   top:0;
+   width:100%;
+}
+.sticky+content{
+   padding-top:60px;
+}
+#form1{
+   width:50%;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: 25%;
+   margin-right: 25%;
+   
+}
+input[type=text], select {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+ }
+ 
+ 
+ input[type=Date], select {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+ }
+ 
+ 
+ input[type=hidden-text], select {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+   box-sizing: border-box;
+ }
+ input[type=submit] {
+   width: 100%;
+   background-color: #4CAF50;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+ h1{
+   margin-top:0px;
+   margin-left:25%;
+   margin-bottom: 0px;
+ }
+ 
+ 
+ 
+ table.s1{
+   cellspacing: 10px;
+   cellpadding:10px;
+   border-collapse: separate;
+   border-spacing: 15px 50px;
+   padding:20px;
+ }
